@@ -1,4 +1,5 @@
-#include "../etc/functions.h"
+#include "../functions.h"
+#include "vars.h"
 stop_order_type = PRIMUS_STOP
 stop_order_side = BUY
 stop_size = 100

@@ -1,4 +1,5 @@
-#include "../etc/functions.h"
+#include "../functions.h"
+#include "vars.h"
 entry_trigger =
 {
 
