@@ -1,4 +1,5 @@
 // 3-4 letter acronyum used for backup folder creation
+#include vars.h
 box_acronym = xyz
 // the box name in primus
 box_name = 0.0
