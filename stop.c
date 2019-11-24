@@ -5,18 +5,18 @@ stop_order_side = BUY
 stop_size = 100
 stop_price =
 {
-  day_high
+  hard_stop
 }
 enable_trailing = TRUE
 trail_after_entry_complete = TRUE
 trail_once = FALSE
 trail_trigger =
 {
-  time_from_open_sec > 60
+  stop_trigger
 }
 trail_how =
 {
-  minute_high(20) + minute_range(3)
+  stop_price
 }
 trail_increment =
 {

@@ -14,11 +14,11 @@ ael_on_bid_ask = FALSE
 ael_convert_to_stop = FALSE
 ael_trigger =
 {
-  last < execution * .9
+  target_trigger
 }
 ael_price =
 {
-  bid - .01
+  target_price
 }
 ael_time_increment =
 {

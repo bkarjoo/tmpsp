@@ -10,21 +10,21 @@
 #define basket_rule adrs > 1
 
 // entry
-#define entry_trig last > 0
-#define entry_price close * 1.01
+#define entry_trig new_high
+#define entry_price new_high + 1 * adrs
 
 // launch rules
 #define launch_filter not half_day
 
 // position sizing
-#define position_size ps_opg
+#define position_size ps_pv
 #define max_shares 2000
 
 // stop
-#define hard_stop 0
+#define hard_stop execution * 1000
 #define stop_trigger time_in_position_sec > 300
-#define stop_price minute_low(20)
+#define stop_price minute_high(20) + minute_range(3)
 
 // target
-#define target_trigger last > execution * 1.01
-#define target_price ask + .01
+#define target_trigger last < execution * .9
+#define target_price bid - .01
