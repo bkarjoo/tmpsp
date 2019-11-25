@@ -23,7 +23,7 @@
 // stop
 #define hard_stop execution * 1000
 #define stop_trigger time_in_position_sec > 300
-#define stop_price minute_high(20) + minute_range(3)
+#define trail_price minute_high(20) + minute_range(3)
 
 // target
 #define target_trigger last < execution * .9

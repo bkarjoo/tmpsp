@@ -16,7 +16,7 @@ trail_trigger =
 }
 trail_how =
 {
-  stop_price
+  trail_price
 }
 trail_increment =
 {
