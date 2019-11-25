@@ -1,7 +1,7 @@
 // 3-4 letter acronyum used for backup folder creation
 #include "vars.h"
-box_acronym = name
-box_name = version
+box_name = name
+box_version = version
 black_box_description = desc
 black_box_side = SHORT
 black_box_scheme = PlainVanilla
