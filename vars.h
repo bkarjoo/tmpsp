@@ -17,8 +17,14 @@
 #define launch_filter not half_day
 
 // position sizing
-#define position_size ps_pv
-#define max_shares 2000
+#define shares_per_adr 250
+#define dollar_per_position 10000
+#define adr_def max2(day_range_ext, adrs)
+#define ref_price_def last
+#define size_factor 1
+#define max_risk_mgt_shares 2000
+
+#define position_size position_size_pv
 
 // stop
 #define hard_stop execution * 1000
