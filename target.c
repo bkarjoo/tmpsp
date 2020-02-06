@@ -2,7 +2,7 @@
 #include "vars.h"
 target_order_type = PRIMUS_AEL
 target_order_side = BUY
-target_destination = CSFB
+target_destination = SNIPER
 target_size = 100
 target_limit =
 {
@@ -28,3 +28,4 @@ ael_price_increment =
 {
   .03
 }
+use_cancel_replace = TRUE

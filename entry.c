@@ -6,7 +6,7 @@ entry_trigger =
 }
 entry_order_type = LIMIT
 entry_order_side = SHORT
-entry_destination = CSFB
+entry_destination = PATHFINDER
 entry_size = 100
 entry_tif = SECONDS
 entry_tif_seconds = 60
