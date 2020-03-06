@@ -14,4 +14,3 @@ enter_on_snapshot = FALSE
 enter_on_new_minute = FALSE
 enter_on_stock_event = FALSE
 use_strict_mode = TRUE
-place_MOC_instead_of_close_position = FALSE
